@@ -1,0 +1,194 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MedicalActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/blood_group"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:text="@string/allergies"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:text="@string/enter_blood_group"
+        android:hint="@string/enter_blood_group" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:ems="10"
+        android:hint="@string/allergies" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText02"
+        android:layout_below="@+id/EditText02"
+        android:ems="10"
+        android:text="@string/enter_height"
+        android:hint="@string/enter_height" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/EditText01"
+        android:layout_marginTop="18dp"
+        android:text="@string/weight"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="16dp"
+        android:text="@string/height"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText01"
+        android:layout_below="@+id/TextView01"
+        android:ems="10"
+        android:text="@string/enter_weight"
+        android:hint="@string/enter_weight" />
+
+    <EditText
+        android:id="@+id/EditText07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText05"
+        android:layout_below="@+id/EditText05"
+        android:ems="10"
+        android:text="@string/enter_insurance"
+        android:hint="@string/enter_insurance" />
+
+    <EditText
+        android:id="@+id/EditText04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText03"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView03"
+        android:ems="10"
+        android:text="@string/enter_pregnancy_details"
+        android:hint="@string/enter_pregnancy_details" />
+
+    <EditText
+        android:id="@+id/EditText05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText04"
+        android:layout_alignRight="@+id/EditText04"
+        android:layout_below="@+id/EditText04"
+        android:ems="10"
+        android:text="@string/enter_medications"
+        android:hint="@string/enter_medications" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/EditText05"
+        android:layout_alignLeft="@+id/TextView05"
+        android:text="@string/medications"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/EditText06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditText07"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EditText07"
+        android:ems="10"
+        android:text="@string/enter_policyNum" 
+        android:hint="@string/enter_policyNum"/>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText06"
+        android:layout_alignLeft="@+id/TextView07"
+        android:text="@string/insurance"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/EditText06"
+        android:layout_alignLeft="@+id/TextView04"
+        android:text="@string/policyNum"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText05"
+        android:layout_alignLeft="@+id/TextView03"
+        android:text="@string/pregnancy_details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText06"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/TextView04"
+        android:text="@string/Save" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/EditText06"
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:text="@string/Home"
+        android:onClick="GotoHome" />
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WSafeGuard</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_medical">MedicalActivity</string>
+    <string name="Name">Name</string>
+    <string name="Age">Age</string>
+    <string name="Sex">Sex</string>
+    <string name="SSID">SSID</string>
+    <string name="Address">Address</string>
+    <string name="enter_age">38</string>
+    <string name="enter_name">Name</string>
+    <string name="enter_sex">female</string>
+    <string name="enter_Address">5000 Forbes</string>
+    <string name="Mobile">Mobile</string>
+    <string name="blood_group">Blood group</string>
+    <string name="allergies">Allergies</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="pregnancy_details">Pregnancy details</string>
+    <string name="medications">Medications</string>
+    <string name="doctor">Doctor\'s name</string>
+    <string name="phone_number">Mobile</string>
+    <string name="insurance">Insurance</string>
+    <string name="policyNum">policy number</string>
+    <string name="enter_blood_group">A</string>
+    <string name="enter_allergies">Allergies</string>
+    <string name="enter_weight">70kg</string>
+    <string name="enter_height">180cm</string>
+    <string name="enter_pregnancy_details">Pregnancy details</string>
+    <string name="enter_medications">Medications</string>
+    <string name="enter_doctor">first, last</string>
+    <string name="enter_insurance">Insurance</string>
+    <string name="enter_policyNum">policy number</string>
+    <string name="title_activity_general_info">GeneralInfoActivity</string>
+    <string name="title_activity_add_contact">AddContactActivity</string>
+    <string name="button_send">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="Home">Home</string>
+    <string name="Help">Help</string>
+    <string name="Add">Add</string>
+    <string name="Save">Save</string>
+    <string name="Delete">Delete</string>
+    <string name="Male">Male</string>
+    <string name="Add_Contacts">Add Contacts</string>
+    <string name="Female">Female</string>
+    <string name="Map">Map</string>
+    <string name="CURRENT_MODE">CURRENT MODE</string>
+    <string name="First_Name">First Name</string>
+    <string name="Second_Name">Second Name</string>
+    <string name="Third_Name">Third Name</string>
+    <string name="Fourth_Name">Fourth Name</string>
+    <string name="Fifth_Name">Fifth Name</string>
+    <string name="Settings">Settings</string>
+    <string name="Add_People">Add People</string>
+    <string name="Guardians">Guardians</string>
+    <string name="Maps">Maps</string>
+    <string name="About">About</string>
+    <string name="Suggestions">Suggestions</string>
+    <string name="select_mode">Select Mode</string>
+    <string name="General_Information">General Information:</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">CameraSample</string>
+    <string name="Record">Record</string>
+    <string name="Play">Play</string>
+    <string name="desc">Desc</string>
+    <string name="Text">Text</string>
+
+    <string-array name="mode_array">
+        <item>Danger</item>
+        <item>WalkAlone</item>
+        <item>Medical Emergency</item>
+    </string-array>
+
+    <string name="title_activity_mode">ModeActivity</string>
+    <string name="title_activity_photo_intent">PhotoIntentActivity</string>
+
+</resources>

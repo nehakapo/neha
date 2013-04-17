@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MedicalActivity" >
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/EditText03"
+        android:layout_marginBottom="21dp"
+        android:onClick="GotoHome"
+        android:text="@string/Home" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_alignLeft="@+id/EditText02"
+        android:ems="10"
+        android:lines="3"
+        android:text="@string/enter_Address"
+        android:hint="@string/enter_Address" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignLeft="@+id/editText1"
+        android:ems="10"
+        android:text="@string/enter_age"
+        android:hint="@string/enter_age" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText02"
+        android:text="@string/Sex"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView05"
+        android:layout_alignLeft="@+id/editText1"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_marginBottom="54dp"
+        android:text="@string/Address"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/Save" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignLeft="@+id/EditText02"
+        android:text="@string/Male" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton1"
+        android:layout_alignBottom="@+id/radioButton1"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/Female" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView05"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/General_Information"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_centerVertical="true"
+        android:text="@string/Age"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioButton1"
+        android:layout_alignLeft="@+id/TextView01"
+        android:text="@string/phone_number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/button1"
+        android:ems="10"
+        android:text="@string/enter_name"
+        android:hint="@string/Name" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignLeft="@+id/TextView05"
+        android:text="@string/Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
